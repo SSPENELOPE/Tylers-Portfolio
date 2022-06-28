@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@700&family=Source+Code+Pro:wght@300&display=swap');
+
+#welcome-section {
+
+  background-color: black;
+
+  background-size: auto;
+
+  color: skyblue;
+
+  font-size: 40px;
+
+  font-family: 'Oleo Script Swash Caps', cursive;
+
+  padding-bottom: 0px;
+
+  padding-top: 20px;
+
+  padding-right: 15px;
+
+  padding-left: 5px;
+
+  width: 100%;;
+
+  float: left;
+
+}
+
+body {
+
+  background: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+
+  background-size: cover;
+
+  background-position: ;
+
+  margin: auto;
+
+  width: 100%;
+
+}
+h1 {
+  text-align: center;
+}
+
+
+
+/**navbar**/
+
+
+
+#nav {
+
+  position: fixed;
+
+	width: 99.8%;
+
+	float: left;
+
+	margin: 0 0 1em 0;
+
+	padding: 0;
+
+	background-color: #000000;
+
+	border: px solid black;  
+
+}
+
+#nav ul {
+
+	list-style: none;
+
+	width: 800px;
+
+	margin: 0 auto;
+
+	padding-left: 10%; 
+
+}
+
+#nav li {
+
+	float: left;
+
+  padding-right: 10%;
+
+}
+
+#nav li a {
+
+	display: block;
+
+	padding: 8px 15px;
+
+	text-decoration: none;
+
+	font-weight: 400;
+
+	color: skyblue;
+
+	border: 3px solid skyblue; 
+
+  background-color: black;
+
+}
+
+#nav li:first-child a {
+
+	border-left: 3px solid skyblue; 
+
+}
+
+#nav li a:hover {
+
+	color: rgb(0, 0, 0);
+
+	background-color: #fff;
+
+ }
+
+
+
+ /**projects**/
+ .projects-container {
+  padding: 0em;
+
+  display: grid;
+
+  grid-gap: 2em;
+
+  grid-template-columns: repeat(
+
+  auto-fit, minmax(250px, 1fr));
+ }
+ #projectwrapper {
+   
+  padding: 1em;
+
+  display: grid;
+
+  grid-gap: 2em;
+
+  grid-template-columns: repeat(
+
+  auto-fit, minmax(250px, 1fr));
+ }
+ #projectwrapper2 {
+   
+  padding: .5em;
+
+  
+ }
+ .survey-container {
+  padding: 2em;
+
+  padding-bottom: 5.7rem;
+
+  border-radius: .3em;
+
+  box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
+
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Bd3trkKL8Dh5gDquaf5PLwHaE5%26pid%3DApi&f=1");
+
+  background-size: cover;
+ }
+ .product-container {
+  padding: 2em;
+
+  padding-bottom: 5.7rem;
+
+  border-radius: .3em;
+
+  box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
+
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.KLYrxRIJp94oZVB0Yh7wKAHaF3%26pid%3DApi&f=1");
+  background-size: cover;
+ }
+ .certification-container {
+  padding: 2em;
+
+  padding-bottom: 5.7rem;
+
+  border-radius: .3em;
+
+  box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
+
+  background: url("https://blog-assets.freshworks.com/freshservice/wp-content/uploads/2018/02/ITIL-Certification.png");
+  background-size: cover;
+ }
+ .resume-container {
+  padding-top: 1em;
+
+  padding-bottom: 2rem;
+
+  padding-left: 6em;
+
+  padding-right: 6em;
+  
+  margin-top: 30px;
+
+  margin-left: 10px;
+
+  border-radius: .3em;
+
+  box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
+ }
+
+.project-text {
+
+  text-align: center;
+
+  font-size: 50px;
+
+  font-weight: bolder;
+
+  font-family: 'Source Code Pro', monospace;
+
+  color: black;
+
+}
+
+.project-text2 {
+
+  text-align: center;
+
+  font-size: 50px;
+
+  font-family: 'Source Code Pro', monospace;
+
+  color: purple;
+
+}
+.project-text3 {
+  text-align: center;
+
+  font-size: 50px;
+
+  font-weight: bolder;
+
+  font-family: 'Source Code Pro', monospace;
+
+  color: black;
+}
+
+.projects-heading {
+
+  text-align: center;
+  color: black;
+  font-size: 50px;
+
+}
+
+ .survey-container:hover,
+ .product-container:hover,
+ .certification-container:hover,
+ .resume-container:hover {
+
+   box-shadow: 5px 5px 5px 5px;
+
+ }
+
+ .project-2 {
+
+   background: url("https://getwallpapers.com/wallpaper/full/8/7/7/194290.jpg");
+
+   background-size: cover;
+
+ }
+
+/**HomePage**/
+
+.column-1 {
+
+  float: left;
+
+  width: 25%;
+
+  padding: 10px;
+
+  margin:20px;
+
+  height: 25%;
+
+}
+
+.container {
+
+  padding: 2em;
+
+  border-radius: .3em;
+
+  box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
+
+  }
+
+#aboutme {
+
+  padding: 0em;
+
+  display: grid;
+
+  grid-gap: 2em;
+
+  grid-template-columns: repeat(
+
+  auto-fit, minmax(250px, 1fr));
+
+}
+
+.biography {
+
+  margin-top: 0;
+
+ }
+
+.biography-heading {
+
+  text-align: center;
+
+  font-size: 50px;
+
+  font-weight: 900;
+
+  margin-top: 0;
+
+  font-family: 'Source Code Pro', monospace;
+
+  color: black;
+
+}
+
+.fcc-img {
+
+  height: 100px;
+
+  text-align: left;
+
+  margin-left: 13px;
+
+}
+
+.fcc-img:hover {
+
+  box-shadow: 1px 2px 2px 5px;
+
+}
+
+.social-links {
+
+  text-align: center;
+
+  font-size: 40px;
+
+  margin-top: 0;
+
+}
+
+.social-link-1 {
+
+  text-align: left;
+
+}
+
+.social-link-2 {
+
+  text-align: left;
+
+  margin-left: 27px;
+
+  margin-top: 10px;
+
+}
+
+.git-img {
+
+  height: 130px;
+
+}
+
+.git-img:hover {
+
+  box-shadow: 1px 3px 3px black;
+
+}
+.my-photo {
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EN10Y5Mm_SOPbPU1TC6MhwHaE8%26pid%3DApi&f=1");
+  background-size: cover;
+}
+
+/**Certifications**/
+#certwrapper {
+   
+  padding: 1em;
+
+  display: grid;
+
+  grid-gap: 2em;
+
+  grid-template-columns: repeat(
+
+  auto-fit, minmax(250px, 1fr));
+}
+.cert-container {
+  padding: 2em;
+
+  padding-bottom: 9.7rem;
+
+  border-radius: .3em;
+
+  box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
+
+  background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pptbackgrounds.org%2Fuploads%2Fcertifiacet-diploma-frame-wallpapers.jpg&f=1&nofb=1");
+
+  background-size: 1250px 325px;
+ }
+ .cert-text {
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 45px;
+   text-shadow: 1px 1px 4px black;
+   margin-top: 5px;
+ }
+ .cert-text1 {
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .cert-text1 a {
+  color:rgb(0, 0, 0);
+ }
+ .cert-text1:hover {
+  content: "";
+  box-shadow: 4px 4px 10px #000000;
+  margin-left: 14em;
+  margin-right: 14em;
+ }
+
+
+/*https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png*/
+
+/*https://getwallpapers.com/wallpaper/full/7/8/6/15319.jpg*/
