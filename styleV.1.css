@@ -216,6 +216,10 @@ h1 {
   box-shadow: 1px 2px 2px 5px;
 }
 
+#social-links {
+
+}
+
 .social-links {
   text-align: center;
   font-size: 40px;
@@ -235,7 +239,7 @@ h1 {
 .linked-in {
   height: 90px;
   width: 90px;
-  margin-left: 20em;
+  margin-left: 13em;
 }
 
 .git-img {
