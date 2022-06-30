@@ -17,7 +17,6 @@
 body {
   background: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
   background-size: cover;
-  background-position: ;
   margin: auto;
   width: 100%;
 }
@@ -25,7 +24,11 @@ h1 {
   text-align: center;
 }
 
-
+.name {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
 
 /**navbar**/
 
@@ -185,6 +188,16 @@ h1 {
   box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
   }
 
+  .container-img {
+    background-size: cover;
+    background: url("https://ak.picdn.net/shutterstock/videos/962581/thumb/1.jpg");
+  }
+
+  .container-img-2 {
+    background: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    background-size: cover;
+  }
+
 #aboutme {
   padding: 0em;
   display: grid;
@@ -195,29 +208,41 @@ h1 {
 
 .biography {
   margin-top: 0;
+  color: white;
  }
 
 .biography-heading {
   text-align: center;
   font-size: 50px;
   font-weight: 900;
+  color: white;
   margin-top: 0;
   font-family: 'Source Code Pro', monospace;
-  color: black;
 }
 
 .fcc-img {
-  height: 100px;
+  height: 90px;
   text-align: left;
-  margin-left: 13px;
+  margin-right: 1em;
 }
 
 .fcc-img:hover {
-  box-shadow: 1px 2px 2px 5px;
+  box-shadow: 3px 6px 9px rgb(236, 229, 229);
 }
 
-#social-links {
 
+
+.link-ul {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.link-ul,
+.link-li {
+ float: left;
+ display: inline;
+ margin: 15px;
+ margin-left: 10px;
 }
 
 .social-links {
@@ -228,26 +253,35 @@ h1 {
 
 .social-link-1 {
   text-align: left;
-}
+  }
 
 .social-link-2 {
   text-align: left;
-  margin-left: 27px;
+  margin-left: 17px;
   margin-top: 10px;
+}
+
+.social-link-3 {
+  text-align: center;
+  margin-left: 10px;
 }
 
 .linked-in {
   height: 90px;
   width: 90px;
-  margin-left: 13em;
+  margin-left: 10px;
+}
+
+.linked-in:hover {
+  box-shadow: 3px 6px 9px rgb(236, 229, 229);
 }
 
 .git-img {
-  height: 130px;
+  height: 100px;
 }
 
 .git-img:hover {
-  box-shadow: 1px 3px 3px black;
+  box-shadow: 4px 7px 10px rgb(243, 240, 240);
 }
 .my-photo {
   background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EN10Y5Mm_SOPbPU1TC6MhwHaE8%26pid%3DApi&f=1");
