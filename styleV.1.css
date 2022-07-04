@@ -190,12 +190,12 @@ h1 {
   box-shadow: 10px 10px 30px rgba(14, 0, 0, 0.801);
   }
 
-  .container-img {
+.container-img {
     background-size: cover;
     background: url("https://ak.picdn.net/shutterstock/videos/962581/thumb/1.jpg");
   }
 
-  .container-img-2 {
+.container-img-2 {
     background: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
     background-size: cover;
   }
@@ -284,7 +284,7 @@ h1 {
   box-shadow: 4px 7px 10px rgb(243, 240, 240);
 }
 .my-photo {
-  background: url(/assets/image0.jpeg);
+  background: url(/assets/images/image0.jpeg);
   background-size: cover;
   background-position: center;
 }
