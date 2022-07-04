@@ -11,7 +11,7 @@
 
 - All links to external pages are currently working and will take you to their respective areas or to my external work
 
-![alt text](assets/readme%20screenshot.png/)
+![alt text](assets/images/readme%20screenshot.png)
 
 
 # Credits
