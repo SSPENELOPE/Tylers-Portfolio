@@ -192,7 +192,7 @@ h1 {
 
 .container-img {
     background-size: cover;
-    background: url("https://ak.picdn.net/shutterstock/videos/962581/thumb/1.jpg");
+    background: url("/assets/images/container-img.webp");
   }
 
 .container-img-2 {
