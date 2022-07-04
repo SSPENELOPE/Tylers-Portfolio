@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@700&family=Source+Code+Pro:wght@300&display=swap');
 
 #welcome-section {
@@ -86,7 +88,7 @@ h1 {
   auto-fit, minmax(250px, 1fr));
  }
  #projectwrapper {
-    padding: 1em;
+  padding: 1em;
   display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(
@@ -172,8 +174,8 @@ h1 {
   background-size: cover;
  }
 
-/**HomePage**/
 
+/**HomePage**/
 .column-1 {
   float: left;
   width: 25%;
@@ -230,8 +232,6 @@ h1 {
   box-shadow: 3px 6px 9px rgb(236, 229, 229);
 }
 
-
-
 .link-ul {
   white-space: nowrap;
   text-align: right;
@@ -284,8 +284,9 @@ h1 {
   box-shadow: 4px 7px 10px rgb(243, 240, 240);
 }
 .my-photo {
-  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EN10Y5Mm_SOPbPU1TC6MhwHaE8%26pid%3DApi&f=1");
+  background: url(/assets/image0.jpeg);
   background-size: cover;
+  background-position: center;
 }
 
 /**Certifications**/
